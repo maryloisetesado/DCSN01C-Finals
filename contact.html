@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="./css files/styles.css">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="./javascript files/script.js"></script>
+  </head>
+
+  <!--favicon-->
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.ico"/>
+
+<body>
+  <header>
+
+  <!--Navigation Bar-->
+    <nav class="nav">
+    <div class="navigation">
+      <a href="index.html">Home</a>    
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    </nav>
+  </header>
+
+  <!--Form-->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <input type="text" placeholder="Name" required name="name">
+      <input type="email" placeholder="E-mail" required name="email">
+      <textarea placeholder="Type your message here..." required name="message"></textarea>
+      <button type="submit">Send</button>
+     </form>
+  </section>
