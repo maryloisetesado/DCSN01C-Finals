@@ -54,7 +54,7 @@ header {
   padding: 150px;
   text-align: center;
   background:black;
-  background-image: url("./1.\ hero-image.jpg");
+  background-image: url("hero-image.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -135,7 +135,7 @@ header {
   padding: 150px;
   text-align: center;
   background:black;
-  background-image: url("./5.about-bg.jpg");
+  background-image: url("5.about-bg.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
